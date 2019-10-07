@@ -237,11 +237,16 @@ function watchAlertOk() {
   });
 }
 
+function focusField() {
+  $('.form-field').focus();
+}
+
 function initApp() {
   watchSubmit();
   watchClick();
   watchAlertOk();
   console.log('App loaded.');
+  focusField();
 }
 
 $(initApp);
