@@ -1,7 +1,7 @@
 const STORE1 = [
     {
         "name": "diagnosis-1",
-        "code": "i40.91",
+        "code": "I48.91",
         "description": "Atrial Fibrillation and Flutter",
         "acuity": "0.268"
     },
